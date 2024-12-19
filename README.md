@@ -57,9 +57,9 @@ class Database {
 ```
 
 ### 4. Importar a Estrutura do Banco
-Execute o script SQL localizado em `database/schema.sql` para criar as tabelas necessárias:
+Execute o script SQL localizado em `db/schema.sql` para criar as tabelas necessárias:
 ```bash
-mysql -u seu_usuario -p seu_banco < database/schema.sql
+mysql -u seu_usuario -p seu_banco < db/schema.sql
 ```
 
 ---
